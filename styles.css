@@ -1,0 +1,132 @@
+/* 전체 페이지 스타일 */
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #f9f9f9;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background: linear-gradient(to right, #3230b8, #ebdb51);
+    color: #fff;
+    text-align: center;
+    padding: 20px 0;
+}
+
+h1 {
+    margin: 0;
+    font-size: 48px;
+    color: #000000;
+}
+
+main {
+    max-width: 800px;
+    margin: 20px auto;
+    padding: 20px;
+    background: linear-gradient(to bottom right, #3230b8, #ebdb51);
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.3);
+    border-radius: 15px;
+}
+
+/* 검색 컨테이너 스타일 */
+/* 검색 관련 요소 삭제 */
+#search-container {
+    display: none;
+}
+#character-name {
+    display: none;
+}
+#search-button {
+    display: none;
+}
+
+/* 캐릭터 정보 스타일 */
+#character-info {
+    text-align: center;
+}
+
+h2 {
+    font-size: 32px;
+    margin-bottom: 15px;
+    color: #ffffff;
+}
+
+p {
+    font-size: 32px;
+    margin: 10px 0;
+    color: #ffffff;
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 15px;
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.3);
+}
+
+
+.tooltip {
+    position: relative;
+    display: inline-block;
+    cursor: pointer; /* 커서 모양을 포인터로 변경 */
+}
+
+.tooltip .tooltiptext {
+    visibility: hidden;
+    width: 200px;
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    border-radius: 5px;
+    padding: 5px;
+    position: absolute;
+    z-index: 1;
+    bottom: 125%;
+    left: 50%;
+    margin-left: -100px;
+    opacity: 0;
+    transition: opacity 0.3s;
+}
+
+.tooltip:hover .tooltiptext {
+    visibility: visible;
+    opacity: 1;
+}
+
+
+/* '챔피언' 버튼 스타일 및 위치 조정 */
+#champion-button {
+    background: linear-gradient(to right, #ffffff, #ffffff);
+    color: #000000;
+    padding: 12px 24px;
+    border: none;
+    cursor: pointer;
+    font-size: 20px;
+    border-radius: 10px;
+    margin-top: 10px; /* 위로 조정 */
+    margin-right: 10px; /* 오른쪽으로 조정 */
+    
+}
+#champions-button {
+    background: linear-gradient(to right, #ffffff, #ffffff);
+    color: #000000;
+    padding: 12px 24px;
+    border: none;
+    cursor: pointer;
+    font-size: 20px;
+    border-radius: 10px;
+    margin-top: 10px; /* 위로 조정 */
+    margin-right: 10px; /* 오른쪽으로 조정 */
+    
+}
+
+#champion-button:hover {
+    background: linear-gradient(to right, #2583c7, #2583c7);
+}
+
+#champions-button:hover {
+    background: linear-gradient(to right, #2583c7, #2583c7);
+}
+
+
+
